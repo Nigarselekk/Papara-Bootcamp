@@ -22,7 +22,7 @@ This is a basic RESTful API project developed as part of the Papara & Patika.dev
 ✅ Model validation using Data Annotations  
 ✅ Routing and Model Binding (from both body and query)  
 ✅ Error handling with standardized error responses  
-✅ Supports filtering and sorting via query parameters (Bonus)
+✅ Supports filtering and sorting via query parameters
 
 ##  Example Endpoints
 
@@ -32,6 +32,6 @@ This is a basic RESTful API project developed as part of the Papara & Patika.dev
 - `PUT /api/products/{id}` – Update a product  
 - `DELETE /api/products/{id}` – Delete a product  
 - `PATCH /api/products/{id}` – Partial update  
-- `GET /api/products/list?name=abc` – Filter products by name (bonus)
+- `GET /api/products/list?name=abc` – Filter products by name
 
 
