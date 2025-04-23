@@ -1,6 +1,6 @@
 namespace HW2_RestfulApi.Interfaces;
 
-public class IUserService
+public interface IUserService
 {
-    
+    bool Login(string username, string password);
 }
