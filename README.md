@@ -34,6 +34,5 @@ This is a basic RESTful API project developed as part of the Papara & Patika.dev
 - `PATCH /api/products/{id}` – Partial update  
 - `GET /api/products/list?name=abc` – Filter products by name
 
->>>>>>> edcea5c (Add HW1 folders)
 
 
