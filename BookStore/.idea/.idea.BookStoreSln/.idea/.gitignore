@@ -1,0 +1,31 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.BookStoreSln.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/dataSources.ideservice.xml
+/dataSources.local/
+/dataSources.local.xml
+/dataSources.ideservice.xml
+# User-specific files
+/workspace.xml
+/idea.properties
+/idea.log
+/idea/
+# Gradle files
+/.idea/gradle.xml
+
+# Gradle user home
+/.gradle/
+
+
+/.dll
+/.exe
