@@ -1,4 +1,5 @@
 
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using WebApi.DbOperations;
@@ -28,6 +29,11 @@ namespace WebApi
             });
             services.AddDbContext<BookStoreDbContext>(options =>
                 options.UseInMemoryDatabase("BookStoreDb"));
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+
+
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
