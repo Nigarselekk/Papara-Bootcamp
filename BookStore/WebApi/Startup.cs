@@ -3,6 +3,7 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using WebApi.DbOperations;
+using WebApi.Middlewares;
 
 namespace WebApi
 {
@@ -54,6 +55,9 @@ namespace WebApi
     app.UseStaticFiles();
     app.UseRouting();
     app.UseAuthorization();
+
+   app.UseMiddleware<CustomExceptionMiddleware>();
+
     app.UseEndpoints(endpoints => endpoints.MapControllers());
 }
         }
